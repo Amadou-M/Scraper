@@ -1,31 +1,33 @@
-const puppeteer = require('puppeteer');
+const https = require('https');
 const cheerio = require('cheerio');
 
-(async () => {
-  const browser = await puppeteer.launch();
-  const page = await browser.newPage();
+const url = 'https://www.soccers.fr/espagne/la-liga/classement-buteurs';
 
-  await page.goto('https://www.soccers.fr/espagne/la-liga/classement-buteurs', {
-    waitUntil: 'networkidle2',
+https.get(url, (res) => {
+  let data = '';
+
+  res.on('data', (chunk) => {
+    data += chunk;
   });
 
-  const content = await page.content();
-  const $ = cheerio.load(content);
-  const resultats = [];
+  res.on('end', () => {
+    const $ = cheerio.load(data);
+    const resultats = [];
 
-  $('table tbody tr').each((i, row) => {
-    const colonnes = $(row).find('td');
+    $('table tbody tr').each((i, row) => {
+      const colonnes = $(row).find('td');
 
-    const joueur = $(colonnes[1]).text().trim();
-    const club = $(colonnes[2]).text().trim();
-    const buts = $(colonnes[3]).text().trim();
+      const joueur = $(colonnes[1]).text().trim();
+      const club = $(colonnes[2]).text().trim();
+      const buts = $(colonnes[3]).text().trim();
 
-    if (joueur && club && buts) {
-      resultats.push({ joueur, club, buts });
-    }
+      if (joueur && club && buts) {
+        resultats.push({ joueur, club, buts });
+      }
+    });
+
+    console.log(resultats);
   });
-
-  console.log(resultats);
-
-  await browser.close();
-})();
+}).on('error', (err) => {
+  console.error('Erreur lors de la requête :', err.message);
+});

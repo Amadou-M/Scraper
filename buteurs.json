@@ -1,0 +1,252 @@
+[
+  {
+    "joueur": "Robert Lewandowski",
+    "club": "25",
+    "buts": "3"
+  },
+  {
+    "joueur": "Kylian Mbappé",
+    "club": "22",
+    "buts": "6"
+  },
+  {
+    "joueur": "Ante Budimir",
+    "club": "16",
+    "buts": "7"
+  },
+  {
+    "joueur": "Oihan Sancet",
+    "club": "15",
+    "buts": "3"
+  },
+  {
+    "joueur": "Julián Álvarez",
+    "club": "14",
+    "buts": "4"
+  },
+  {
+    "joueur": "Raphinha",
+    "club": "13",
+    "buts": "1"
+  },
+  {
+    "joueur": "Ayoze Pérez",
+    "club": "13",
+    "buts": "0"
+  },
+  {
+    "joueur": "Alexander Sørloth",
+    "club": "12",
+    "buts": "1"
+  },
+  {
+    "joueur": "Kike",
+    "club": "11",
+    "buts": "2"
+  },
+  {
+    "joueur": "Dodi Lukebakio",
+    "club": "11",
+    "buts": "1"
+  },
+  {
+    "joueur": "Vinícius Júnior",
+    "club": "11",
+    "buts": "2"
+  },
+  {
+    "joueur": "Thiemo Barry",
+    "club": "10",
+    "buts": "1"
+  },
+  {
+    "joueur": "Javi Puado",
+    "club": "10",
+    "buts": "4"
+  },
+  {
+    "joueur": "Fábio Silva",
+    "club": "10",
+    "buts": "2"
+  },
+  {
+    "joueur": "Mauro Arambarri",
+    "club": "9",
+    "buts": "3"
+  },
+  {
+    "joueur": "Ferrán Torres",
+    "club": "9",
+    "buts": "0"
+  },
+  {
+    "joueur": "Antoine Griezmann",
+    "club": "8",
+    "buts": "1"
+  },
+  {
+    "joueur": "Sandro Ramírez",
+    "club": "8",
+    "buts": "0"
+  },
+  {
+    "joueur": "Iago Aspas",
+    "club": "8",
+    "buts": "4"
+  },
+  {
+    "joueur": "Hugo Duro",
+    "club": "8",
+    "buts": "0"
+  },
+  {
+    "joueur": "Jude Bellingham",
+    "club": "8",
+    "buts": "1"
+  },
+  {
+    "joueur": "Giovani Lo Celso",
+    "club": "7",
+    "buts": "2"
+  },
+  {
+    "joueur": "Diego López",
+    "club": "7",
+    "buts": "0"
+  },
+  {
+    "joueur": "Vedat Muriqi",
+    "club": "7",
+    "buts": "2"
+  },
+  {
+    "joueur": "Daniel Olmo",
+    "club": "7",
+    "buts": "1"
+  },
+  {
+    "joueur": "Raba",
+    "club": "7",
+    "buts": "4"
+  },
+  {
+    "joueur": "Álex Baena",
+    "club": "6",
+    "buts": "0"
+  },
+  {
+    "joueur": "Lamine Yamal Nasraoui Ebana",
+    "club": "6",
+    "buts": "0"
+  },
+  {
+    "joueur": "Christian Stuani",
+    "club": "6",
+    "buts": "3"
+  },
+  {
+    "joueur": "Rodrygo",
+    "club": "6",
+    "buts": "0"
+  },
+  {
+    "joueur": "Gorka Guruzeta",
+    "club": "6",
+    "buts": "0"
+  },
+  {
+    "joueur": "Mikel Oyarzabal",
+    "club": "6",
+    "buts": "2"
+  },
+  {
+    "joueur": "Juanpe",
+    "club": "1",
+    "buts": "0"
+  },
+  {
+    "joueur": "Cyle Larin",
+    "club": "6",
+    "buts": "1"
+  },
+  {
+    "joueur": "Isco",
+    "club": "6",
+    "buts": "4"
+  },
+  {
+    "joueur": "Alberto Moleiro",
+    "club": "6",
+    "buts": "0"
+  },
+  {
+    "joueur": "Luis Rioja",
+    "club": "5",
+    "buts": "2"
+  },
+  {
+    "joueur": "Williams",
+    "club": "5",
+    "buts": "0"
+  },
+  {
+    "joueur": "Federico Valverde",
+    "club": "5",
+    "buts": "0"
+  },
+  {
+    "joueur": "Nico Williams",
+    "club": "5",
+    "buts": "0"
+  },
+  {
+    "joueur": "Takefusa Kubo",
+    "club": "5",
+    "buts": "0"
+  },
+  {
+    "joueur": "Borja Iglesias",
+    "club": "5",
+    "buts": "0"
+  },
+  {
+    "joueur": "Roberto Fernández Jaén",
+    "club": "5",
+    "buts": "0"
+  },
+  {
+    "joueur": "Alex Berenguer",
+    "club": "5",
+    "buts": "0"
+  },
+  {
+    "joueur": "Toni Martínez",
+    "club": "4",
+    "buts": "0"
+  },
+  {
+    "joueur": "Ramón Terrats",
+    "club": "4",
+    "buts": "0"
+  },
+  {
+    "joueur": "Mamadou Sylla",
+    "club": "4",
+    "buts": "3"
+  },
+  {
+    "joueur": "Juanlu",
+    "club": "4",
+    "buts": "0"
+  },
+  {
+    "joueur": "Umar Sadiq",
+    "club": "4",
+    "buts": "0"
+  },
+  {
+    "joueur": "Abel Ruiz",
+    "club": "4",
+    "buts": "1"
+  }
+]
