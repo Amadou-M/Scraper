@@ -1,30 +1,30 @@
-const fs = require('fs');
-const cheerio = require('cheerio');
+import * as cheerio from 'cheerio';
 
+const $ = await cheerio.fromURL('https://www.soccers.fr/espagne/la-liga/classement-buteurs');
 
-const html = fs.readFileSync('page.html', 'utf8');
-
-
-const $ = cheerio.load(html);
-
-
-const resultats = [];
-
-
-$('table tbody tr').each((i, row) => {
+const scrapeData = () => {
   
-  const colonnes = $(row).find('td');
+      const resultats = [];
+
+      // Extraire les informations du tableau des buteurs
+      $('table tbody tr').each((i, row) => {
+        const cells = $(row).find('td');
+
+        if(!cells) return
+
+        const joueur = $(cells [1]).text().trim();
+        const club = $(cells[2]).text().trim();
+        const buts = $(cells[3]).text().trim();
+
+        
+          resultats.push({ joueur, club, buts });
+      });
+
+      // Afficher les résultats
+      console.log(resultats);
+    }
+  
 
 
-  const joueur = $(colonnes[1]).text().trim();  
-  const club = $(colonnes[2]).text().trim();   
-  const buts = $(colonnes[3]).text().trim();   
-
-
-  if (joueur && club && buts) {
-    resultats.push({ joueur, club, buts });
-  }
-});
-
-
-console.log(resultats);
+// Lancer la fonction de scraping
+scrapeData();
